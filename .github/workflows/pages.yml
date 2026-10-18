@@ -55,6 +55,8 @@ jobs:
           set -euo pipefail
           mkdir _site
           cp -r index.html it-sud francia badge legale assets i18n data badges _site/
+          # File di verifica dei motori di ricerca (es. Google Search Console) nella radice.
+          find . -maxdepth 1 -name 'google*.html' -exec cp {} _site/ \;
           # L'indirizzo vero del sito entra nelle anteprime social (og:image) e nel link dei badge SVG al momento della pubblicazione.
           find _site \( -name '*.html' -o -name '*.svg' \) -exec sed -i "s|__SITE_URL__|${BASE_URL}|g" {} +
           if grep -rq '__SITE_URL__' _site; then echo 'Segnaposto __SITE_URL__ non sostituito' >&2; exit 1; fi
