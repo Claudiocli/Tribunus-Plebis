@@ -1,0 +1,13 @@
+_site/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Mai nel repository: esportazioni di dati e segreti (scripts/check.mjs lo controlla)
+*.csv
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*

@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "name": "Italiano",
+    "dir": "ltr",
+    "status": "reviewed"
+  },
+  "site": {
+    "name": "Tribunus Plebis",
+    "description": "Un sito non violento e non partitico dove le persone di ogni paese si fanno sentire, con fatti verificabili e rispetto reciproco."
+  },
+  "a11y": {
+    "skip": "Vai al contenuto",
+    "language": "Lingua",
+    "mainNav": "Navigazione principale",
+    "newTab": "(si apre in una nuova scheda)"
+  },
+  "nav": {
+    "home": "Home",
+    "itsud": "Italia – Sud",
+    "francia": "Francia",
+    "badge": "Badge",
+    "legal": "Informazioni legali"
+  },
+  "footer": {
+    "tagline": "Progetto civico, non violento e non partitico.",
+    "licenses": "Codice: licenza MIT. Testi e grafiche: CC BY-SA 4.0 (da confermare).",
+    "draft": "Questa traduzione è una bozza, non ancora rivista da un madrelingua. Il testo di riferimento è quello italiano."
+  },
+  "common": {
+    "loadError": "Non è stato possibile caricare i contenuti. Riprova più tardi.",
+    "source": "Fonte",
+    "updated": "Aggiornato al {date}",
+    "asOf": "Stato al {date}",
+    "contentItalian": "I contenuti di questa sezione sono in italiano."
+  },
+  "home": {
+    "docTitle": "Siamo umani",
+    "h1": "Siamo umani.",
+    "lead": "Siamo tutti fratelli e sorelle, da New York a Kiev, da Mosca a Tokyo, da Roma a Sydney.",
+    "sub": "Un luogo semplice, non violento e non partitico, che dà voce al popolo: le persone di ogni paese possono farsi sentire con fatti verificabili e rispetto reciproco.",
+    "ctaBadge": "Prendi il tuo badge",
+    "ctaItSud": "Vedi la sezione Italia – Sud",
+    "manifesto": {
+      "title": "Il manifesto",
+      "intro": "Abbiamo nomi, famiglie, mestieri, paure e speranze diverse. Vogliamo tutti la stessa cosa: vivere con dignità, in pace, e lasciare ai nostri figli un mondo migliore di quello che abbiamo trovato.",
+      "principles": [
+        {
+          "title": "Contro la violenza",
+          "text": "Nessuna violenza ingiustificata è accettabile, da qualunque parte venga e contro chiunque sia rivolta: manifestanti, forze dell'ordine, istituzioni o singoli. Condanniamo la violenza, mai un popolo o una nazionalità."
+        },
+        {
+          "title": "La voce del popolo",
+          "text": "Il potere appartiene al popolo e si esercita con la parola, il voto, il lavoro e la solidarietà, mai con la paura. Ogni persona ha il diritto di essere ascoltata e di dissentire in modo pacifico."
+        },
+        {
+          "title": "La dignità non si svilisce",
+          "text": "La dignità di una persona non si compra e non si baratta. Vale per chi vive a New York come a Kiev, a Mosca come a Tokyo, a Roma come a Sydney."
+        },
+        {
+          "title": "Prima i fatti",
+          "text": "Ogni dato che pubblichiamo ha una fonte, una data e un link. Distinguiamo ciò che è verificato da ciò che è opinione o testimonianza, e attribuiamo le cifre di parte a chi le dà."
+        },
+        {
+          "title": "Non siamo un partito",
+          "text": "Non serviamo nessun partito e non usiamo simboli di partito. Non attacchiamo le persone: discutiamo i problemi."
+        },
+        {
+          "title": "Crescere insieme",
+          "text": "Vogliamo un mondo di crescita condivisa, non di divisione. Il benessere di pochi non basta: lavoriamo perché migliori la vita di tutti."
+        }
+      ],
+      "note": "Il manifesto ha valore dichiarativo: non è un atto legale e non offre alcuna tutela giuridica a chi lo sottoscrive."
+    },
+    "places": {
+      "title": "Dove siamo",
+      "intro": "Il sito ha due livelli: una voce globale e una sezione per ogni paese o causa.",
+      "itsud": {
+        "title": "Italia – Sud",
+        "text": "La prima sezione: giovani, agricoltori e cittadini del Sud Italia. Notizie, dati e voci, sempre con fonte.",
+        "cta": "Apri la sezione"
+      },
+      "francia": {
+        "title": "Francia",
+        "text": "Un movimento nato nei licei si è allargato al caro vita. Cronologia, cifre del governo e degli organizzatori e posizioni di ogni parte, con le fonti.",
+        "cta": "Apri la sezione"
+      },
+      "next": {
+        "title": "Il tuo paese",
+        "text": "Vuoi una sezione per il tuo paese o per la tua causa? Proponila con un modulo semplice: ci servono il paese, la situazione in poche righe e qualche fonte pubblica.",
+        "cta": "Proponi una sezione"
+      }
+    }
+  },
+  "itsud": {
+    "docTitle": "Italia – Sud",
+    "h1": "Italia – Sud",
+    "slogan": "ITALIA, RICORDA CHI È IL TUO PADRONE: IL POPOLO!",
+    "intro": "Fatti, dati e voci sulla situazione di giovani, agricoltori e cittadini del Sud Italia. Ogni voce ha data, fonte e link. Distinguiamo i fatti dalle opinioni e attribuiamo le cifre di parte a chi le fornisce.",
+    "nonviolence": "Questo sito dà voce al popolo, sostiene le forme pacifiche di protesta e condanna ogni violenza, da qualunque parte venga.",
+    "news": {
+      "title": "Notizie: le proteste degli agricoltori",
+      "empty": "Nessuna notizia da mostrare."
+    },
+    "requests": {
+      "title": "Le richieste e lo stato delle risposte",
+      "intro": "Cosa chiedono gli agricoltori e cosa risulta fatto finora. Per i testi normativi fanno fede quelli pubblicati in Gazzetta Ufficiale."
+    },
+    "stats": {
+      "title": "I dati",
+      "intro": "Ogni dato indica periodo, ente che lo ha prodotto e fonte. I dati mensili sono volatili: guarda sempre la data.",
+      "groups": {
+        "lavoro": "Lavoro e giovani",
+        "emigrazione": "Emigrazione",
+        "redditi": "Redditi",
+        "economia": "Quadro economico",
+        "carburante": "Carburante e prezzi"
+      }
+    },
+    "next": {
+      "title": "Prossimi aggiornamenti",
+      "items": [
+        "Eventuali incontri tra governo e associazioni agricole: li riporteremo solo quando saranno confermati da fonti ufficiali.",
+        "Rapporto annuale SVIMEZ, di norma a fine novembre.",
+        "Dati mensili ISTAT su occupazione e prezzi, ogni mese."
+      ]
+    }
+  },
+  "badge": {
+    "docTitle": "Badge",
+    "h1": "Il badge",
+    "intro": "Mostra da che parte stai: metti il badge nel README del tuo profilo GitHub o sul tuo sito. È un'immagine statica, senza script e senza tracciamento.",
+    "preview": "Anteprima",
+    "language": "Lingua del badge",
+    "markdownTitle": "Markdown (per il README di GitHub)",
+    "htmlTitle": "HTML (per il tuo sito)",
+    "copy": "Copia",
+    "copied": "Copiato",
+    "copyFail": "Copia non riuscita: seleziona il testo e copialo a mano.",
+    "localNote": "Stai guardando una copia locale del sito: questi indirizzi funzioneranno solo dopo la pubblicazione.",
+    "whyTitle": "Perché una lingua alla volta",
+    "why": "Il README di GitHub non esegue script e non conosce la lingua di chi lo guarda. Per questo c'è un badge per ogni lingua: scegli quella che preferisci.",
+    "draftNote": "Questa traduzione del badge è una bozza, non ancora rivista da un madrelingua.",
+    "reviewCta": "Sei madrelingua? Conferma o correggi il testo",
+    "styleTitle": "Stile del badge",
+    "styleDark": "Scuro",
+    "styleLight": "Chiaro",
+    "styleAuto": "Automatico",
+    "styleAutoNote": "Si adatta al tema di chi guarda: scuro con il tema scuro, chiaro con il tema chiaro. Funziona nel README di GitHub.",
+    "previewDark": "Con il tema scuro",
+    "previewLight": "Con il tema chiaro",
+    "htmlAutoTitle": "HTML con stile automatico (vale anche per il README di GitHub)",
+    "reviewedNote": "Questo testo è stato rivisto da madrelingua.",
+    "reviewProgress": "Conferme da madrelingua: {n} su {total}."
+  },
+  "legal": {
+    "docTitle": "Informazioni legali",
+    "h1": "Informazioni legali",
+    "draft": "Testo informativo di un progetto civico senza scopo di lucro. Non è consulenza legale.",
+    "onlyItalian": "Per ora i testi legali sono disponibili solo in italiano.",
+    "toc": "In questa pagina",
+    "tocOperator": "Chi siamo e contatti",
+    "tocManifesto": "Valore del manifesto",
+    "tocPrivacy": "Informativa privacy",
+    "tocRemoval": "Correzioni e segnalazioni"
+  },
+  "share": {
+    "button": "Condividi",
+    "text": "Siamo umani. Un sito non violento e non partitico per chi vuole farsi sentire con fatti verificabili.",
+    "copied": "Indirizzo copiato negli appunti.",
+    "copyFail": "Copia non riuscita: copia l'indirizzo dalla barra del browser."
+  },
+  "section": {
+    "verified": {
+      "yes": "Verificato sulla fonte",
+      "no": "Fonte da ricontrollare"
+    },
+    "howToRead": {
+      "title": "Come leggere questa pagina",
+      "items": [
+        "Fatto: un evento o un dato con fonte verificabile.",
+        "Cifra di parte: una cifra data da un'organizzazione (per esempio \"secondo Coldiretti\"), non confermata in modo indipendente.",
+        "Fonte da ricontrollare: non abbiamo ancora confrontato questa voce con il documento originale."
+      ]
+    },
+    "status": "Stato",
+    "period": "Periodo",
+    "body": "Ente",
+    "contribute": {
+      "title": "Hai una notizia, un dato o un errore da segnalare?",
+      "text": "Proponi una voce con una fonte che si può controllare, oppure segnala un errore: i moduli ti guidano e non servono dati personali.",
+      "news": "Proponi una notizia o un dato",
+      "error": "Segnala un errore"
+    }
+  },
+  "francia": {
+    "docTitle": "Francia",
+    "h1": "Francia",
+    "intro": "Dalla fine di settembre 2026 le proteste nate nei licei per le condizioni della scuola si sono allargate a studenti, sindacati e Gilets jaunes contro il caro vita. La mobilitazione del 17 ottobre è stata la più grande finora, con scontri, incendi e molti fermi. Qui trovi fatti, cifre e posizioni di ogni parte, ciascuna con la sua fonte: dove i numeri divergono li riportiamo tutti, attribuiti.",
+    "nonviolence": "Questo sito dà voce al popolo, sostiene le forme pacifiche di protesta e condanna ogni violenza, da qualunque parte venga: dei manifestanti, delle forze dell'ordine, delle istituzioni o di chiunque altro; contro persone, scuole ed edifici pubblici, e contro chi manifesta. Riportiamo anche le critiche all'uso della forza verso i minorenni e le posizioni del governo.",
+    "sourcesNote": "Le fonti sono in francese e in inglese; i riassunti sono nostri.",
+    "news": {
+      "title": "Cronologia",
+      "empty": "Nessuna notizia da mostrare."
+    },
+    "requests": {
+      "title": "Le richieste e le risposte",
+      "intro": "Cosa chiedono liceali e studenti e cosa ha risposto il governo, secondo le fonti. Le due parti non sempre concordano su cosa sia stato fatto."
+    },
+    "stats": {
+      "title": "I numeri",
+      "intro": "Dove le cifre divergono trovi quella del governo e quella degli organizzatori, ciascuna attribuita: sono conteggi di parte, non verificati in modo indipendente.",
+      "groups": {
+        "mobilitazione": "Partecipazione",
+        "ordine": "Fermi, giustizia e feriti",
+        "scuola": "Scuola",
+        "economia": "Economia e lavoro"
+      }
+    },
+    "next": {
+      "title": "Prossimi aggiornamenti",
+      "items": [
+        "Sciopero nazionale dell'intersindacale annunciato per il 5 novembre 2026.",
+        "Nuovi bilanci ufficiali dei ministeri dell'Interno e della Giustizia sul 17 ottobre e sui giorni successivi.",
+        "Dati INSEE su occupazione e prezzi, appena pubblicati."
+      ]
+    }
+  },
+  "theme": {
+    "toDark": "Passa al tema scuro",
+    "toLight": "Passa al tema chiaro"
+  }
+}

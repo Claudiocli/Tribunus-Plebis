@@ -1,0 +1,30 @@
+{
+  "note": "Lingue del badge, indipendenti da quelle del sito. 'status': 'reviewed' = riletta da madrelingua; 'draft' = bozza non ancora rivista. Una lingua diventa 'reviewed' quando 'confirmationsNeeded' madrelingua indipendenti confermano lo STESSO testo (vedi docs/revisione-traduzioni.md e scripts/review-badge.mjs). 'dir': 'rtl' per le lingue scritte da destra a sinistra.",
+  "confirmationsNeeded": 2,
+  "languages": [
+    { "code": "it", "name": "Italiano", "dir": "ltr", "status": "reviewed", "nativeAuthor": true, "text": "Io sono un umano e sto con i miei fratelli e sorelle", "reviews": [] },
+    { "code": "en", "name": "English", "dir": "ltr", "status": "draft", "text": "I am human and I stand with my brothers and sisters", "reviews": [] },
+    { "code": "fr", "name": "Français", "dir": "ltr", "status": "draft", "text": "Je suis humain et je suis avec mes frères et sœurs", "reviews": [] },
+    { "code": "zh", "name": "中文", "dir": "ltr", "status": "draft", "text": "我是人类，我与我的兄弟姐妹同在", "reviews": [] },
+    { "code": "hi", "name": "हिन्दी", "dir": "ltr", "status": "draft", "text": "मैं इंसान हूँ और अपने भाई-बहनों के साथ हूँ", "reviews": [] },
+    { "code": "es", "name": "Español", "dir": "ltr", "status": "draft", "text": "Soy humano y estoy con mis hermanos y hermanas", "reviews": [] },
+    { "code": "ar", "name": "العربية", "dir": "rtl", "status": "draft", "text": "أنا إنسان، وأقف مع إخوتي وأخواتي", "reviews": [] },
+    { "code": "bn", "name": "বাংলা", "dir": "ltr", "status": "draft", "text": "আমি একজন মানুষ এবং আমি আমার ভাই-বোনদের পাশে আছি", "reviews": [] },
+    { "code": "pt", "name": "Português", "dir": "ltr", "status": "draft", "text": "Sou humano e estou com os meus irmãos e irmãs", "reviews": [] },
+    { "code": "ru", "name": "Русский", "dir": "ltr", "status": "draft", "text": "Я человек, и я с моими братьями и сёстрами", "reviews": [] },
+    { "code": "ur", "name": "اردو", "dir": "rtl", "status": "draft", "text": "میں انسان ہوں اور اپنے بھائیوں اور بہنوں کے ساتھ ہوں", "reviews": [] },
+    { "code": "id", "name": "Bahasa Indonesia", "dir": "ltr", "status": "draft", "text": "Saya manusia dan saya bersama saudara-saudariku", "reviews": [] },
+    { "code": "de", "name": "Deutsch", "dir": "ltr", "status": "draft", "text": "Ich bin ein Mensch und stehe zu meinen Geschwistern", "reviews": [] },
+    { "code": "ja", "name": "日本語", "dir": "ltr", "status": "draft", "text": "私は人間であり、兄弟姉妹とともにいます", "reviews": [] },
+    { "code": "tr", "name": "Türkçe", "dir": "ltr", "status": "draft", "text": "Ben bir insanım ve kardeşlerimin yanındayım", "reviews": [] },
+    { "code": "ko", "name": "한국어", "dir": "ltr", "status": "draft", "text": "나는 인간이며, 나의 형제자매와 함께합니다", "reviews": [] },
+    { "code": "vi", "name": "Tiếng Việt", "dir": "ltr", "status": "draft", "text": "Tôi là con người và tôi đứng cùng những người anh chị em của mình", "reviews": [] },
+    { "code": "fa", "name": "فارسی", "dir": "rtl", "status": "draft", "text": "من انسانم و در کنار برادران و خواهرانم ایستاده‌ام", "reviews": [] },
+    { "code": "pl", "name": "Polski", "dir": "ltr", "status": "draft", "text": "Jestem człowiekiem i stoję razem z moimi braćmi i siostrami", "reviews": [] },
+    { "code": "uk", "name": "Українська", "dir": "ltr", "status": "draft", "text": "Я людина, і я з моїми братами і сестрами", "reviews": [] },
+    { "code": "nl", "name": "Nederlands", "dir": "ltr", "status": "draft", "text": "Ik ben mens en ik sta aan de zijde van mijn broers en zussen", "reviews": [] },
+    { "code": "he", "name": "עברית", "dir": "rtl", "status": "draft", "text": "אני בן אדם, ואני לצד אחיי ואחיותיי", "reviews": [] },
+    { "code": "th", "name": "ไทย", "dir": "ltr", "status": "draft", "text": "ฉันเป็นมนุษย์ และฉันยืนเคียงข้างพี่น้องของฉัน", "reviews": [] },
+    { "code": "sw", "name": "Kiswahili", "dir": "ltr", "status": "draft", "text": "Mimi ni binadamu na ninasimama pamoja na kaka na dada zangu", "reviews": [] }
+  ]
+}

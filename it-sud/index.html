@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="it" dir="ltr" data-root="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; require-trusted-types-for 'script'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Italia – Sud · Tribunus Plebis</title>
+  <meta name="description" content="Un sito non violento e non partitico dove le persone di ogni paese si fanno sentire, con fatti verificabili e rispetto reciproco.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tribunus Plebis">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Siamo umani · Tribunus Plebis">
+  <meta property="og:description" content="Un sito non violento e non partitico dove le persone di ogni paese si fanno sentire, con fatti verificabili e rispetto reciproco.">
+  <meta property="og:image" content="__SITE_URL__/assets/img/social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Siamo umani. Siamo tutti fratelli e sorelle, da New York a Kiev, da Mosca a Tokyo, da Roma a Sydney.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="__SITE_URL__/assets/img/social.png">
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/theme-init.js"></script>
+  <script type="module" src="../assets/js/section.js"></script>
+</head>
+<body data-page="it-sud" data-title="itsud.docTitle" data-section="itsud" data-news="news.json" data-stats="stats.json">
+  <main id="main" tabindex="-1">
+    <noscript>
+      <div class="container"><p class="notice">
+        <span lang="it">Questo sito richiede JavaScript.</span> /
+        <span lang="en">This site requires JavaScript.</span> /
+        <span lang="fr">Ce site nécessite JavaScript.</span>
+      </p></div>
+    </noscript>
+
+    <div class="container">
+      <h1 data-i18n="itsud.h1"></h1>
+      <p class="slogan" lang="it" data-i18n="itsud.slogan"></p>
+      <p class="lead" data-i18n="itsud.intro"></p>
+      <p class="muted" data-i18n="common.contentItalian"></p>
+      <p data-i18n="itsud.nonviolence"></p>
+
+      <section class="legend" aria-labelledby="howto-title">
+        <h2 id="howto-title" data-i18n="section.howToRead.title"></h2>
+        <ul data-i18n-list="section.howToRead.items"></ul>
+      </section>
+
+      <div id="section-content"></div>
+
+      <section class="contribute" aria-labelledby="contribute-title" data-repo-wrap hidden>
+        <h2 id="contribute-title" data-i18n="section.contribute.title"></h2>
+        <p data-i18n="section.contribute.text"></p>
+        <p class="actions">
+          <a class="button" data-repo-path="issues/new?template=proponi-notizia-o-dato.yml" hidden data-i18n="section.contribute.news"></a>
+          <a class="button secondary" data-repo-path="issues/new?template=segnala-errore.yml" hidden data-i18n="section.contribute.error"></a>
+        </p>
+      </section>
+
+      <section aria-labelledby="next-title">
+        <h2 id="next-title" data-i18n="itsud.next.title"></h2>
+        <ul data-i18n-list="itsud.next.items"></ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "name": "Français",
+    "dir": "ltr",
+    "status": "draft"
+  },
+  "site": {
+    "name": "Tribunus Plebis",
+    "description": "Un site non violent et non partisan où les personnes de tous les pays se font entendre, avec des faits vérifiables et du respect mutuel."
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "language": "Langue",
+    "mainNav": "Navigation principale",
+    "newTab": "(s'ouvre dans un nouvel onglet)"
+  },
+  "nav": {
+    "home": "Accueil",
+    "itsud": "Italie du Sud",
+    "francia": "France",
+    "badge": "Badge",
+    "legal": "Informations légales"
+  },
+  "footer": {
+    "tagline": "Un projet citoyen, non violent et non partisan.",
+    "licenses": "Code : licence MIT. Textes et graphiques : CC BY-SA 4.0 (à confirmer).",
+    "draft": "Cette traduction est un brouillon, pas encore relu par un locuteur natif. Le texte italien fait foi."
+  },
+  "common": {
+    "loadError": "Le contenu n'a pas pu être chargé. Réessayez plus tard.",
+    "source": "Source",
+    "updated": "Mis à jour le {date}",
+    "asOf": "Situation au {date}",
+    "contentItalian": "Le contenu de cette rubrique est en italien."
+  },
+  "home": {
+    "docTitle": "Nous sommes humains",
+    "h1": "Nous sommes humains.",
+    "lead": "Nous sommes tous frères et sœurs, de New York à Kiev, de Moscou à Tokyo, de Rome à Sydney.",
+    "sub": "Un lieu simple, non violent et non partisan, qui donne la parole au peuple : les personnes de tous les pays peuvent se faire entendre, avec des faits vérifiables et du respect mutuel.",
+    "ctaBadge": "Prends ton badge",
+    "ctaItSud": "Voir la rubrique Italie du Sud",
+    "manifesto": {
+      "title": "Le manifeste",
+      "intro": "Nous avons des noms, des familles, des métiers, des peurs et des espoirs différents. Nous voulons tous la même chose : vivre dans la dignité, en paix, et laisser à nos enfants un monde meilleur que celui que nous avons trouvé.",
+      "principles": [
+        {
+          "title": "Contre la violence",
+          "text": "Aucune violence injustifiée n'est acceptable, de quelque côté qu'elle vienne et contre qui qu'elle soit dirigée : manifestants, forces de l'ordre, institutions ou particuliers. Nous condamnons la violence, jamais un peuple ni une nationalité."
+        },
+        {
+          "title": "La voix du peuple",
+          "text": "Le pouvoir appartient au peuple et s'exerce par la parole, le vote, le travail et la solidarité, jamais par la peur. Chacun a le droit d'être entendu et de manifester pacifiquement son désaccord."
+        },
+        {
+          "title": "La dignité n'est pas à vendre",
+          "text": "La dignité d'une personne ne s'achète pas et ne se négocie pas. C'est vrai à New York comme à Kiev, à Moscou comme à Tokyo, à Rome comme à Sydney."
+        },
+        {
+          "title": "Les faits d'abord",
+          "text": "Chaque donnée que nous publions a une source, une date et un lien. Nous distinguons ce qui est vérifié de ce qui est opinion ou témoignage, et nous attribuons les chiffres partisans à ceux qui les donnent."
+        },
+        {
+          "title": "Nous ne sommes pas un parti",
+          "text": "Nous ne servons aucun parti et n'utilisons aucun symbole partisan. Nous n'attaquons pas les personnes : nous discutons des problèmes."
+        },
+        {
+          "title": "Grandir ensemble",
+          "text": "Nous voulons un monde de croissance partagée, pas de division. Le bien-être de quelques-uns ne suffit pas : nous œuvrons pour que la vie s'améliore pour tous."
+        }
+      ],
+      "note": "Le manifeste a une valeur déclarative : ce n'est pas un acte juridique et il n'offre aucune protection légale à celles et ceux qui y adhèrent."
+    },
+    "places": {
+      "title": "Où nous sommes",
+      "intro": "Le site a deux niveaux : une voix mondiale et une rubrique pour chaque pays ou chaque cause.",
+      "itsud": {
+        "title": "Italie du Sud",
+        "text": "La première rubrique : les jeunes, les agriculteurs et les habitants du sud de l'Italie. Actualités, données et voix, toujours avec leurs sources.",
+        "cta": "Ouvrir la rubrique"
+      },
+      "francia": {
+        "title": "France",
+        "text": "Un mouvement né dans les lycées s'est élargi à la vie chère. Chronologie, chiffres du gouvernement et des organisateurs, et positions de chaque camp, avec les sources.",
+        "cta": "Ouvrir la rubrique"
+      },
+      "next": {
+        "title": "Ton pays",
+        "text": "Tu veux une rubrique pour ton pays ou ta cause ? Propose-la avec un formulaire simple : il nous faut le pays, la situation en quelques lignes et quelques sources publiques.",
+        "cta": "Proposer une rubrique"
+      }
+    }
+  },
+  "itsud": {
+    "docTitle": "Italie du Sud",
+    "h1": "Italie du Sud",
+    "slogan": "ITALIA, RICORDA CHI È IL TUO PADRONE: IL POPOLO!",
+    "intro": "Faits, données et voix sur la situation des jeunes, des agriculteurs et des habitants du sud de l'Italie. Chaque entrée a une date, une source et un lien. Nous distinguons les faits des opinions et attribuons les chiffres partisans à ceux qui les fournissent.",
+    "nonviolence": "Ce site donne la parole au peuple, soutient les formes pacifiques de protestation et condamne toute violence, de quelque côté qu'elle vienne.",
+    "news": {
+      "title": "Actualités : les manifestations des agriculteurs",
+      "empty": "Aucune actualité à afficher."
+    },
+    "requests": {
+      "title": "Les revendications et l'état des réponses",
+      "intro": "Ce que demandent les agriculteurs et ce qui a été fait jusqu'ici. Pour les textes normatifs, ceux publiés à la Gazzetta Ufficiale font foi."
+    },
+    "stats": {
+      "title": "Les données",
+      "intro": "Chaque donnée indique sa période, l'organisme qui l'a produite et sa source. Les données mensuelles sont volatiles : regardez toujours la date.",
+      "groups": {
+        "lavoro": "Travail et jeunes",
+        "emigrazione": "Émigration",
+        "redditi": "Revenus",
+        "economia": "Contexte économique",
+        "carburante": "Carburant et prix"
+      }
+    },
+    "next": {
+      "title": "Prochaines mises à jour",
+      "items": [
+        "Éventuelles rencontres entre le gouvernement et les organisations agricoles : nous ne les signalerons qu'une fois confirmées par des sources officielles.",
+        "Rapport annuel de la SVIMEZ, en général fin novembre.",
+        "Données mensuelles de l'ISTAT sur l'emploi et les prix, chaque mois."
+      ]
+    }
+  },
+  "badge": {
+    "docTitle": "Badge",
+    "h1": "Le badge",
+    "intro": "Montre de quel côté tu es : mets le badge dans le README de ton profil GitHub ou sur ton site. C'est une image statique, sans script et sans suivi.",
+    "preview": "Aperçu",
+    "language": "Langue du badge",
+    "markdownTitle": "Markdown (pour un README GitHub)",
+    "htmlTitle": "HTML (pour ton site)",
+    "copy": "Copier",
+    "copied": "Copié",
+    "copyFail": "La copie a échoué : sélectionne le texte et copie-le à la main.",
+    "localNote": "Tu regardes une copie locale du site : ces adresses ne fonctionneront qu'après la publication.",
+    "whyTitle": "Pourquoi une langue à la fois",
+    "why": "Le README de GitHub n'exécute aucun script et ne connaît pas la langue de la personne qui le regarde. C'est pourquoi il y a un badge par langue : choisis celle que tu préfères.",
+    "draftNote": "Cette traduction du badge est un brouillon, pas encore relu par un locuteur natif.",
+    "reviewCta": "Tu es locuteur natif ? Confirme ou corrige le texte",
+    "styleTitle": "Style du badge",
+    "styleDark": "Sombre",
+    "styleLight": "Clair",
+    "styleAuto": "Automatique",
+    "styleAutoNote": "Il s'adapte au thème de la personne qui regarde : sombre avec un thème sombre, clair avec un thème clair. Fonctionne dans le README de GitHub.",
+    "previewDark": "Avec un thème sombre",
+    "previewLight": "Avec un thème clair",
+    "htmlAutoTitle": "HTML avec style automatique (valable aussi pour le README de GitHub)",
+    "reviewedNote": "Ce texte a été relu par des locuteurs natifs.",
+    "reviewProgress": "Confirmations de locuteurs natifs : {n} sur {total}."
+  },
+  "legal": {
+    "docTitle": "Informations légales",
+    "h1": "Informations légales",
+    "draft": "Texte d'information d'un projet citoyen à but non lucratif. Ce n'est pas un conseil juridique.",
+    "onlyItalian": "Pour l'instant, les textes juridiques ne sont disponibles qu'en italien.",
+    "toc": "Sur cette page",
+    "tocOperator": "Qui nous sommes et contact",
+    "tocManifesto": "Valeur du manifeste",
+    "tocPrivacy": "Information sur la vie privée",
+    "tocRemoval": "Corrections et signalements"
+  },
+  "share": {
+    "button": "Partager",
+    "text": "Nous sommes humains. Un site non violent et non partisan pour celles et ceux qui veulent se faire entendre, avec des faits vérifiables.",
+    "copied": "Adresse copiée dans le presse-papiers.",
+    "copyFail": "La copie a échoué : copie l'adresse depuis la barre d'adresse de ton navigateur."
+  },
+  "section": {
+    "verified": {
+      "yes": "Vérifié sur la source",
+      "no": "Source à revérifier"
+    },
+    "howToRead": {
+      "title": "Comment lire cette page",
+      "items": [
+        "Fait : un événement ou une donnée avec une source vérifiable.",
+        "Chiffre partisan : un chiffre donné par une organisation (par exemple « selon Coldiretti »), non confirmé de manière indépendante.",
+        "Source à revérifier : nous n'avons pas encore comparé cette entrée avec le document d'origine."
+      ]
+    },
+    "status": "État",
+    "period": "Période",
+    "body": "Organisme",
+    "contribute": {
+      "title": "Tu as une actualité, un chiffre ou une erreur à signaler ?",
+      "text": "Propose une entrée avec une source vérifiable, ou signale une erreur : les formulaires te guident et aucune donnée personnelle n'est nécessaire.",
+      "news": "Proposer une actualité ou un chiffre",
+      "error": "Signaler une erreur"
+    }
+  },
+  "francia": {
+    "docTitle": "France",
+    "h1": "France",
+    "intro": "Depuis fin septembre 2026, les protestations nées dans les lycées à propos des conditions scolaires se sont étendues aux étudiants, aux syndicats et aux Gilets jaunes contre la vie chère. La mobilisation du 17 octobre est la plus importante à ce jour, avec des affrontements, des incendies et de nombreuses interpellations. Tu trouveras ici les faits, les chiffres et les positions de chaque camp, chacun avec sa source : quand les chiffres divergent, nous les donnons tous, avec leur origine.",
+    "nonviolence": "Ce site donne la parole au peuple, soutient les formes pacifiques de protestation et condamne toute violence, de quelque côté qu'elle vienne : manifestants, forces de l'ordre, institutions ou quiconque ; contre les personnes, les écoles et les bâtiments publics, et contre celles et ceux qui manifestent. Nous relayons aussi les critiques sur l'usage de la force envers les mineurs et les positions du gouvernement.",
+    "sourcesNote": "Les sources sont en français et en anglais ; les résumés sont les nôtres.",
+    "news": {
+      "title": "Chronologie",
+      "empty": "Aucune actualité à afficher."
+    },
+    "requests": {
+      "title": "Les revendications et les réponses",
+      "intro": "Ce que demandent les lycéens et les étudiants et ce que le gouvernement a répondu, d'après les sources. Les deux camps ne s'accordent pas toujours sur ce qui a été fait."
+    },
+    "stats": {
+      "title": "Les chiffres",
+      "intro": "Quand les chiffres divergent, tu trouves celui du gouvernement et celui des organisateurs, chacun attribué : ce sont des décomptes de partie, non vérifiés de manière indépendante.",
+      "groups": {
+        "mobilitazione": "Participation",
+        "ordine": "Interpellations, justice et blessés",
+        "scuola": "Écoles",
+        "economia": "Économie et travail"
+      }
+    },
+    "next": {
+      "title": "Prochaines mises à jour",
+      "items": [
+        "Grève nationale appelée par l'intersyndicale pour le 5 novembre 2026.",
+        "Nouveaux bilans officiels des ministères de l'Intérieur et de la Justice sur le 17 octobre et les jours suivants.",
+        "Données de l'INSEE sur l'emploi et les prix, dès leur publication."
+      ]
+    }
+  },
+  "theme": {
+    "toDark": "Passer au thème sombre",
+    "toLight": "Passer au thème clair"
+  }
+}

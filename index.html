@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="it" dir="ltr" data-root="./">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; require-trusted-types-for 'script'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Tribunus Plebis</title>
+  <meta name="description" content="Un sito non violento e non partitico dove le persone di ogni paese si fanno sentire, con fatti verificabili e rispetto reciproco.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tribunus Plebis">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Siamo umani · Tribunus Plebis">
+  <meta property="og:description" content="Un sito non violento e non partitico dove le persone di ogni paese si fanno sentire, con fatti verificabili e rispetto reciproco.">
+  <meta property="og:image" content="__SITE_URL__/assets/img/social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Siamo umani. Siamo tutti fratelli e sorelle, da New York a Kiev, da Mosca a Tokyo, da Roma a Sydney.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="__SITE_URL__/assets/img/social.png">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/theme-init.js"></script>
+  <script type="module" src="./assets/js/home.js"></script>
+</head>
+<body data-page="home" data-title="home.docTitle">
+  <main id="main" tabindex="-1">
+    <noscript>
+      <div class="container"><p class="notice">
+        <span lang="it">Questo sito richiede JavaScript.</span> /
+        <span lang="en">This site requires JavaScript.</span> /
+        <span lang="fr">Ce site nécessite JavaScript.</span>
+      </p></div>
+    </noscript>
+
+    <div class="container">
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" data-i18n="home.h1"></h1>
+        <p class="lead" data-i18n="home.lead"></p>
+        <p class="sub" data-i18n="home.sub"></p>
+        <div class="actions">
+          <a class="button" href="./badge/" data-i18n="home.ctaBadge"></a>
+          <a class="button secondary" href="./it-sud/" data-i18n="home.ctaItSud"></a>
+          <button type="button" class="button secondary" id="share-button" data-i18n="share.button"></button>
+        </div>
+        <p id="share-status" class="muted" role="status" aria-live="polite"></p>
+      </section>
+
+      <section aria-labelledby="manifesto-title">
+        <h2 id="manifesto-title" data-i18n="home.manifesto.title"></h2>
+        <p class="lead" data-i18n="home.manifesto.intro"></p>
+        <ul class="principles" id="principles"></ul>
+        <p class="muted" data-i18n="home.manifesto.note"></p>
+      </section>
+
+      <section aria-labelledby="places-title">
+        <h2 id="places-title" data-i18n="home.places.title"></h2>
+        <p data-i18n="home.places.intro"></p>
+        <div class="places">
+          <article class="card">
+            <h3 data-i18n="home.places.itsud.title"></h3>
+            <p data-i18n="home.places.itsud.text"></p>
+            <p><a class="button" href="./it-sud/" data-i18n="home.places.itsud.cta"></a></p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="home.places.francia.title"></h3>
+            <p data-i18n="home.places.francia.text"></p>
+            <p><a class="button" href="./francia/" data-i18n="home.places.francia.cta"></a></p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="home.places.next.title"></h3>
+            <p data-i18n="home.places.next.text"></p>
+            <p data-repo-wrap hidden><a class="button secondary" data-repo-path="issues/new?template=proponi-sezione-paese.yml" hidden data-i18n="home.places.next.cta"></a></p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

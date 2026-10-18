@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">Siamo umani. Siamo tutti fratelli e sorelle, da New York a Kiev, da Mosca a Tokyo, da Roma a Sydney.</title>
+  <rect width="1200" height="630" fill="#1d3557"/>
+  <rect y="598" width="1200" height="32" fill="#f2a541"/>
+  <path d="M32 51 14 33a10.5 10.5 0 0 1 15-14.7l3 3 3-3A10.5 10.5 0 0 1 50 33z" fill="#f2a541" transform="translate(66 52) scale(3.6)"/>
+  <g fill="#ffffff" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <text x="90" y="400" font-size="124" font-weight="800">Siamo umani.</text>
+    <text x="90" y="468" font-size="38">Siamo tutti fratelli e sorelle, da New York a Kiev,</text>
+    <text x="90" y="520" font-size="38">da Mosca a Tokyo, da Roma a Sydney.</text>
+    <text x="90" y="578" font-size="28" font-weight="600" fill="#f2a541">Tribunus Plebis · non violento · non partitico</text>
+  </g>
+</svg>

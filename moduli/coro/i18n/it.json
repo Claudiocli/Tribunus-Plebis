@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "chorus": "Il coro",
+    "participate": "Partecipa"
+  },
+  "home": {
+    "ctaParticipate": "Unisciti al coro"
+  },
+  "chorus": {
+    "docTitle": "Il coro",
+    "h1": "Il coro",
+    "intro": "Persone di ogni paese che si uniscono contro la violenza e per la dignità di tutti. Qui compaiono solo i nomi, scelti da chi aderisce: niente commenti.",
+    "moderation": "Pubblichiamo solo le adesioni lette e approvate da una persona.",
+    "count": "Siamo già {count} persone nel coro.",
+    "countOne": "Una persona ha già aderito al coro.",
+    "hidden": "Alcune persone hanno scelto di non mostrare il nome: sono comunque nel conto.",
+    "empty": "Nessun nome è ancora comparso. Sii tra i primi a unirti al coro.",
+    "listLabel": "Nomi di chi ha aderito",
+    "cta": "Unisciti al coro"
+  },
+  "participate": {
+    "docTitle": "Unisciti al coro",
+    "h1": "Unisciti al coro",
+    "intro": "Aggiungi il tuo nome alla lista di chi sta con i propri fratelli e sorelle. Non è una petizione né una firma legale: è un modo semplice per dire «ci sono anch'io». Nessun commento, nessun pagamento, nessun account.",
+    "howTitle": "Come funziona",
+    "how": [
+      "Compili un breve modulo: il nome che vuoi mostrare, il paese o la regione e il tuo consenso.",
+      "Una persona legge l'adesione e la approva.",
+      "Il tuo nome compare nella pagina «Il coro»."
+    ],
+    "nameTitle": "Che nome puoi usare",
+    "name": [
+      "Il tuo nome di battesimo o un soprannome: basta questo, non serve il cognome.",
+      "Mai il nome di un'altra persona senza il suo consenso.",
+      "Niente slogan, link, simboli di partito, insulti o nomi di persone da attaccare.",
+      "Massimo 40 caratteri. Il paese o la regione si sceglie da un menu."
+    ],
+    "anonymityTitle": "Anonimato e privacy",
+    "anonymity": "Puoi scegliere di non mostrare il tuo nome: verrai contato solo nel totale. Il modulo non chiede la tua email: per chiedere la rimozione di un nome, scrivi all'indirizzo di contatto indicato nella pagina legale.",
+    "consentTitle": "Consenso",
+    "consent": "Inviando il modulo confermi di avere almeno 14 anni e di condividere i principi del manifesto (contro ogni violenza, senza partiti). Dichiari anche di aver capito che comparire in questa lista rende pubblico il fatto che sostieni questa causa, che può rivelare un'opinione, e dai il tuo consenso esplicito alla pubblicazione del nome che hai scelto. L'adesione non ha valore legale e puoi chiedere la rimozione in qualsiasi momento.",
+    "legalLink": "Leggi termini, informativa privacy e procedura di rimozione",
+    "formCta": "Apri il modulo",
+    "formNote": "Il modulo è gestito da Google e si apre in una nuova scheda: valgono anche le regole sulla privacy di Google.",
+    "formSoon": "Il modulo sarà disponibile a breve."
+  }
+}

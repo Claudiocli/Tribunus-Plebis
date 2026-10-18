@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "chorus": "Le chœur",
+    "participate": "Participer"
+  },
+  "home": {
+    "ctaParticipate": "Rejoins le chœur"
+  },
+  "chorus": {
+    "docTitle": "Le chœur",
+    "h1": "Le chœur",
+    "intro": "Des personnes de tous les pays qui s'unissent contre la violence et pour la dignité de tous. Seuls les noms apparaissent ici, choisis par celles et ceux qui adhèrent : pas de commentaires.",
+    "moderation": "Nous ne publions que les adhésions lues et approuvées par une personne.",
+    "count": "{count} personnes ont déjà rejoint le chœur.",
+    "countOne": "Une personne a déjà rejoint le chœur.",
+    "hidden": "Certaines personnes ont choisi de ne pas afficher leur nom : elles sont tout de même comptées.",
+    "empty": "Aucun nom n'est encore apparu. Sois parmi les premiers à rejoindre le chœur.",
+    "listLabel": "Noms de celles et ceux qui ont adhéré",
+    "cta": "Rejoins le chœur"
+  },
+  "participate": {
+    "docTitle": "Rejoins le chœur",
+    "h1": "Rejoins le chœur",
+    "intro": "Ajoute ton nom à la liste de celles et ceux qui sont avec leurs frères et sœurs. Ce n'est ni une pétition ni une signature juridique : c'est une façon simple de dire « moi aussi, je suis là ». Pas de commentaires, pas de paiement, pas de compte.",
+    "howTitle": "Comment ça marche",
+    "how": [
+      "Tu remplis un court formulaire : le nom que tu veux afficher, ton pays ou ta région et ton consentement.",
+      "Une personne lit l'adhésion et l'approuve.",
+      "Ton nom apparaît sur la page « Le chœur »."
+    ],
+    "nameTitle": "Quel nom tu peux utiliser",
+    "name": [
+      "Ton prénom ou un surnom : cela suffit, pas besoin de nom de famille.",
+      "Jamais le nom d'une autre personne sans son consentement.",
+      "Pas de slogans, de liens, de symboles de parti, d'insultes ni de noms de personnes à attaquer.",
+      "40 caractères maximum. Le pays ou la région se choisit dans un menu."
+    ],
+    "anonymityTitle": "Anonymat et vie privée",
+    "anonymity": "Tu peux choisir de ne pas afficher ton nom : tu seras seulement compté dans le total. Le formulaire ne demande pas ton e-mail : pour demander le retrait d'un nom, écris à l'adresse de contact indiquée sur la page légale.",
+    "consentTitle": "Consentement",
+    "consent": "En envoyant le formulaire, tu confirmes avoir au moins 14 ans et partager les principes du manifeste (contre toute violence, sans parti). Tu reconnais aussi que figurer dans cette liste rend public le fait que tu soutiens cette cause, ce qui peut révéler une opinion, et tu donnes ton consentement explicite à la publication du nom que tu as choisi. L'adhésion n'a pas de valeur juridique et tu peux demander son retrait à tout moment.",
+    "legalLink": "Lire les conditions, l'information sur la vie privée et la procédure de retrait",
+    "formCta": "Ouvrir le formulaire",
+    "formNote": "Le formulaire est géré par Google et s'ouvre dans un nouvel onglet : les règles de confidentialité de Google s'appliquent aussi.",
+    "formSoon": "Le formulaire sera bientôt disponible."
+  }
+}

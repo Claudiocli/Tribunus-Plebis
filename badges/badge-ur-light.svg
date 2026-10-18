@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="40" viewBox="0 0 320 40" role="img" aria-labelledby="t" lang="ur" xml:lang="ur">
+  <title id="t">میں انسان ہوں اور اپنے بھائیوں اور بہنوں کے ساتھ ہوں</title>
+  <a href="__SITE_URL__/" target="_top">
+  <rect x="0.5" y="0.5" width="319" height="39" rx="8" fill="#ffffff" stroke="#14213d"/>
+  <path d="M32 51 14 33a10.5 10.5 0 0 1 15-14.7l3 3 3-3A10.5 10.5 0 0 1 50 33z" fill="#b45309" transform="translate(282 4) scale(0.5)"/>
+  <g fill="#14213d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Noto Sans CJK JP', 'Noto Sans Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="middle" direction="rtl">
+    <text x="144" y="16.6">میں انسان ہوں اور اپنے</text>
+    <text x="144" y="32.5">بھائیوں اور بہنوں کے ساتھ ہوں</text>
+  </g>
+  </a>
+</svg>

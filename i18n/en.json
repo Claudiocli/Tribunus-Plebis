@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "name": "English",
+    "dir": "ltr",
+    "status": "draft"
+  },
+  "site": {
+    "name": "Tribunus Plebis",
+    "description": "A nonviolent, nonpartisan website where people from every country make their voices heard, with verifiable facts and mutual respect."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "language": "Language",
+    "mainNav": "Main navigation",
+    "newTab": "(opens in a new tab)"
+  },
+  "nav": {
+    "home": "Home",
+    "itsud": "Southern Italy",
+    "francia": "France",
+    "badge": "Badge",
+    "legal": "Legal information"
+  },
+  "footer": {
+    "tagline": "A civic project: nonviolent and nonpartisan.",
+    "licenses": "Code: MIT license. Texts and graphics: CC BY-SA 4.0 (to be confirmed).",
+    "draft": "This translation is a draft that has not yet been reviewed by a native speaker. The Italian text is the reference."
+  },
+  "common": {
+    "loadError": "The content could not be loaded. Please try again later.",
+    "source": "Source",
+    "updated": "Updated {date}",
+    "asOf": "Status as of {date}",
+    "contentItalian": "The content of this section is in Italian."
+  },
+  "home": {
+    "docTitle": "We are human",
+    "h1": "We are human.",
+    "lead": "We are all brothers and sisters, from New York to Kyiv, from Moscow to Tokyo, from Rome to Sydney.",
+    "sub": "A simple, nonviolent and nonpartisan place that gives voice to the people: people from every country can make themselves heard, with verifiable facts and mutual respect.",
+    "ctaBadge": "Get your badge",
+    "ctaItSud": "See the Southern Italy section",
+    "manifesto": {
+      "title": "The manifesto",
+      "intro": "We have different names, families, jobs, fears and hopes. We all want the same thing: to live with dignity, in peace, and to leave our children a better world than the one we found.",
+      "principles": [
+        {
+          "title": "Against violence",
+          "text": "No unjustified violence is acceptable, whichever side it comes from and whoever it is aimed at: protesters, police, institutions or individuals. We condemn violence, never a people or a nationality."
+        },
+        {
+          "title": "The voice of the people",
+          "text": "Power belongs to the people and is exercised through speech, the vote, work and solidarity, never through fear. Everyone has the right to be heard and to dissent peacefully."
+        },
+        {
+          "title": "Dignity is not for sale",
+          "text": "A person's dignity cannot be bought or bargained away. It is true for someone in New York as in Kyiv, in Moscow as in Tokyo, in Rome as in Sydney."
+        },
+        {
+          "title": "Facts first",
+          "text": "Every figure we publish has a source, a date and a link. We separate what is verified from opinion and testimony, and we attribute partisan figures to whoever gives them."
+        },
+        {
+          "title": "We are not a party",
+          "text": "We serve no political party and use no party symbols. We do not attack people: we discuss problems."
+        },
+        {
+          "title": "Growing together",
+          "text": "We want a world of shared growth, not division. The wellbeing of a few is not enough: we work so that life gets better for everyone."
+        }
+      ],
+      "note": "The manifesto is declaratory: it is not a legal act and gives no legal protection to those who sign up to it."
+    },
+    "places": {
+      "title": "Where we are",
+      "intro": "The site has two levels: a global voice and a section for each country or cause.",
+      "itsud": {
+        "title": "Southern Italy",
+        "text": "The first section: young people, farmers and citizens of Southern Italy. News, data and voices, always with sources.",
+        "cta": "Open the section"
+      },
+      "francia": {
+        "title": "France",
+        "text": "A movement that began in high schools has widened to the cost of living. Timeline, government and organisers' figures, and the positions of each side, with sources.",
+        "cta": "Open the section"
+      },
+      "next": {
+        "title": "Your country",
+        "text": "Would you like a section for your country or your cause? Propose it with a simple form: we need the country, the situation in a few lines and a few public sources.",
+        "cta": "Propose a section"
+      }
+    }
+  },
+  "itsud": {
+    "docTitle": "Southern Italy",
+    "h1": "Southern Italy",
+    "slogan": "ITALIA, RICORDA CHI È IL TUO PADRONE: IL POPOLO!",
+    "intro": "Facts, data and voices about the situation of young people, farmers and citizens in Southern Italy. Every entry has a date, a source and a link. We separate facts from opinions and attribute partisan figures to whoever supplies them.",
+    "nonviolence": "This site gives voice to the people, supports peaceful forms of protest and condemns all violence, whichever side it comes from.",
+    "news": {
+      "title": "News: the farmers' protests",
+      "empty": "No news to show."
+    },
+    "requests": {
+      "title": "The demands and the state of the responses",
+      "intro": "What farmers are asking for and what has been done so far. For legislation, the texts published in the Gazzetta Ufficiale are authoritative."
+    },
+    "stats": {
+      "title": "The data",
+      "intro": "Each figure shows its period, the body that produced it and its source. Monthly figures are volatile: always check the date.",
+      "groups": {
+        "lavoro": "Work and young people",
+        "emigrazione": "Emigration",
+        "redditi": "Incomes",
+        "economia": "Economic outlook",
+        "carburante": "Fuel and prices"
+      }
+    },
+    "next": {
+      "title": "Upcoming updates",
+      "items": [
+        "Any meetings between the government and farmers' associations: we will report them only once confirmed by official sources.",
+        "SVIMEZ annual report, usually at the end of November.",
+        "Monthly ISTAT data on employment and prices, every month."
+      ]
+    }
+  },
+  "badge": {
+    "docTitle": "Badge",
+    "h1": "The badge",
+    "intro": "Show where you stand: put the badge in your GitHub profile README or on your website. It is a static image, with no scripts and no tracking.",
+    "preview": "Preview",
+    "language": "Badge language",
+    "markdownTitle": "Markdown (for a GitHub README)",
+    "htmlTitle": "HTML (for your website)",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFail": "Copy failed: select the text and copy it by hand.",
+    "localNote": "You are viewing a local copy of the site: these addresses will only work once it is published.",
+    "whyTitle": "Why one language at a time",
+    "why": "A GitHub README does not run scripts and does not know the language of whoever views it. That is why there is one badge per language: pick the one you prefer.",
+    "draftNote": "This badge translation is a draft that has not yet been reviewed by a native speaker.",
+    "reviewCta": "Are you a native speaker? Confirm or correct the text",
+    "styleTitle": "Badge style",
+    "styleDark": "Dark",
+    "styleLight": "Light",
+    "styleAuto": "Automatic",
+    "styleAutoNote": "It adapts to the viewer's theme: dark with a dark theme, light with a light theme. Works in a GitHub README.",
+    "previewDark": "With a dark theme",
+    "previewLight": "With a light theme",
+    "htmlAutoTitle": "HTML with automatic style (also works in a GitHub README)",
+    "reviewedNote": "This text has been reviewed by native speakers.",
+    "reviewProgress": "Native-speaker confirmations: {n} of {total}."
+  },
+  "legal": {
+    "docTitle": "Legal information",
+    "h1": "Legal information",
+    "draft": "Informational text of a non-profit civic project. It is not legal advice.",
+    "onlyItalian": "For now the legal texts are available in Italian only.",
+    "toc": "On this page",
+    "tocOperator": "Who we are and contact",
+    "tocManifesto": "Value of the manifesto",
+    "tocPrivacy": "Privacy notice",
+    "tocRemoval": "Corrections and reports"
+  },
+  "share": {
+    "button": "Share",
+    "text": "We are human. A nonviolent, nonpartisan site for people who want to be heard, with verifiable facts.",
+    "copied": "Address copied to the clipboard.",
+    "copyFail": "Copy failed: copy the address from your browser's address bar."
+  },
+  "section": {
+    "verified": {
+      "yes": "Checked against the source",
+      "no": "Source to be rechecked"
+    },
+    "howToRead": {
+      "title": "How to read this page",
+      "items": [
+        "Fact: an event or a figure with a verifiable source.",
+        "Partisan figure: a number given by an organisation (for example \"according to Coldiretti\"), not independently confirmed.",
+        "Source to be rechecked: we have not yet compared this entry with the original document."
+      ]
+    },
+    "status": "Status",
+    "period": "Period",
+    "body": "Body",
+    "contribute": {
+      "title": "Do you have news, a figure or an error to report?",
+      "text": "Propose an entry with a source that can be checked, or report an error: the forms guide you and no personal data is needed.",
+      "news": "Propose news or a figure",
+      "error": "Report an error"
+    }
+  },
+  "francia": {
+    "docTitle": "France",
+    "h1": "France",
+    "intro": "Since late September 2026, protests that began in high schools over school conditions have widened to students, unions and the Gilets jaunes against the cost of living. The 17 October mobilisation was the largest so far, with clashes, fires and many arrests. Here you will find facts, figures and the positions of each side, each with its source: where numbers differ we report them all, attributed.",
+    "nonviolence": "This site gives voice to the people, supports peaceful forms of protest and condemns all violence, whichever side it comes from: protesters, police, institutions or anyone else; against people, schools and public buildings, and against those who demonstrate. We also report the criticism of the use of force against minors, and the government's positions.",
+    "sourcesNote": "Sources are in French and English; the summaries are our own.",
+    "news": {
+      "title": "Timeline",
+      "empty": "No news to show."
+    },
+    "requests": {
+      "title": "The demands and the responses",
+      "intro": "What high-school and university students are asking for and what the government has answered, according to the sources. The two sides do not always agree on what has been done."
+    },
+    "stats": {
+      "title": "The numbers",
+      "intro": "Where figures differ you will find the government's and the organisers', each attributed: they are partisan counts, not independently verified.",
+      "groups": {
+        "mobilitazione": "Turnout",
+        "ordine": "Arrests, justice and injuries",
+        "scuola": "Schools",
+        "economia": "Economy and work"
+      }
+    },
+    "next": {
+      "title": "Upcoming updates",
+      "items": [
+        "National strike called by the union alliance for 5 November 2026.",
+        "New official figures from the Interior and Justice ministries on 17 October and the days after.",
+        "INSEE data on employment and prices, as soon as published."
+      ]
+    }
+  },
+  "theme": {
+    "toDark": "Switch to dark theme",
+    "toLight": "Switch to light theme"
+  }
+}

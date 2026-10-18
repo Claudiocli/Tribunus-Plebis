@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # Tiene aggiornate le GitHub Actions bloccate sul commit esatto (workflow di pubblicazione).
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

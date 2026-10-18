@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "chorus": "The chorus",
+    "participate": "Take part"
+  },
+  "home": {
+    "ctaParticipate": "Join the chorus"
+  },
+  "chorus": {
+    "docTitle": "The chorus",
+    "h1": "The chorus",
+    "intro": "People from every country joining together against violence and for everyone's dignity. Only names appear here, chosen by those who join: no comments.",
+    "moderation": "We only publish sign-ups that a person has read and approved.",
+    "count": "{count} people have already joined the chorus.",
+    "countOne": "One person has already joined the chorus.",
+    "hidden": "Some people chose not to show their name: they are still counted.",
+    "empty": "No names have appeared yet. Be among the first to join the chorus.",
+    "listLabel": "Names of those who have joined",
+    "cta": "Join the chorus"
+  },
+  "participate": {
+    "docTitle": "Join the chorus",
+    "h1": "Join the chorus",
+    "intro": "Add your name to the list of people who stand with their brothers and sisters. It is not a petition or a legal signature: it is a simple way to say “I'm here too”. No comments, no payments, no account.",
+    "howTitle": "How it works",
+    "how": [
+      "You fill in a short form: the name you want to show, your country or region, and your consent.",
+      "A person reads the sign-up and approves it.",
+      "Your name appears on the page “The chorus”."
+    ],
+    "nameTitle": "Which name you can use",
+    "name": [
+      "Your first name or a nickname: that is enough, no surname needed.",
+      "Never another person's name without their consent.",
+      "No slogans, links, party symbols, insults or names of people to attack.",
+      "Up to 40 characters. Your country or region is chosen from a menu."
+    ],
+    "anonymityTitle": "Anonymity and privacy",
+    "anonymity": "You can choose not to show your name: you will only be counted in the total. The form does not ask for your email: to ask for a name to be removed, write to the contact address given on the legal page.",
+    "consentTitle": "Consent",
+    "consent": "By submitting the form you confirm that you are at least 14 years old and that you share the principles of the manifesto (against all violence, nonpartisan). You also confirm that you understand that appearing in this list makes public the fact that you support this cause, which may reveal an opinion, and you give your explicit consent to the publication of the name you have chosen. Joining has no legal value and you can ask for removal at any time.",
+    "legalLink": "Read the terms, privacy notice and removal procedure",
+    "formCta": "Open the form",
+    "formNote": "The form is run by Google and opens in a new tab: Google's privacy rules also apply.",
+    "formSoon": "The form will be available soon."
+  }
+}

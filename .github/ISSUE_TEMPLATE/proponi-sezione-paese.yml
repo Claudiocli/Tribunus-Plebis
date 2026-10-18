@@ -1,0 +1,60 @@
+name: Proponi una sezione per il tuo paese o la tua causa
+description: Vuoi che il sito racconti la situazione del tuo paese? Dacci i fatti e le fonti.
+title: "[Sezione] "
+labels: ["sezione"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie! Una sezione nasce da **fatti con fonti pubbliche**, senza attaccare persone o popoli. Sui conflitti armati usiamo solo fonti verificabili (ONU, OSCE, agenzie di stampa, organizzazioni umanitarie riconosciute).
+
+        **Le segnalazioni su GitHub sono pubbliche.** Non scrivere dati personali tuoi o di altri (indirizzi, telefoni, email).
+
+        _English: a section starts from facts with public sources, without attacking people or nations. Issues on GitHub are public: do not include personal data._
+  - type: input
+    id: paese
+    attributes:
+      label: Paese o regione
+      placeholder: Francia
+    validations:
+      required: true
+  - type: textarea
+    id: situazione
+    attributes:
+      label: Qual è la situazione, in poche righe?
+      description: Solo fatti, scritti con parole tue. Se una cifra è di parte, di' di chi è.
+    validations:
+      required: true
+  - type: textarea
+    id: fonti
+    attributes:
+      label: Da 3 a 5 link a fonti pubbliche e affidabili
+      description: Stampa, enti statistici, organizzazioni riconosciute. Un indirizzo per riga.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: lingue
+    attributes:
+      label: In quali lingue potresti aiutare a rivedere i testi?
+      placeholder: Francese, inglese
+  - type: dropdown
+    id: impegno
+    attributes:
+      label: Come vuoi contribuire?
+      options:
+        - Voglio solo segnalare la situazione
+        - Posso aiutare a scrivere e tenere aggiornata la sezione
+    validations:
+      required: true
+  - type: checkboxes
+    id: conferme
+    attributes:
+      label: Conferme
+      options:
+        - label: Condivido il manifesto del sito, cioè nessuna violenza e nessun partito.
+          required: true
+        - label: Le fonti indicate sono pubbliche e raggiungibili da chiunque.
+          required: true
+        - label: Non ho scritto dati personali di nessuno.
+          required: true

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="40" viewBox="0 0 320 40" role="img" aria-labelledby="t" lang="es" xml:lang="es">
+  <title id="t">Soy humano y estoy con mis hermanos y hermanas</title>
+  <a href="__SITE_URL__/" target="_top">
+  <rect x="0.5" y="0.5" width="319" height="39" rx="8" fill="#ffffff" stroke="#14213d"/>
+  <path d="M32 51 14 33a10.5 10.5 0 0 1 15-14.7l3 3 3-3A10.5 10.5 0 0 1 50 33z" fill="#b45309" transform="translate(6 4) scale(0.5)"/>
+  <g fill="#14213d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Noto Sans CJK JP', 'Noto Sans Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="middle" direction="ltr">
+    <text x="176" y="16.6">Soy humano y estoy con</text>
+    <text x="176" y="32.5">mis hermanos y hermanas</text>
+  </g>
+  </a>
+</svg>

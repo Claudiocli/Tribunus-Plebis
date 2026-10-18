@@ -1,0 +1,62 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Permessi minimi di default: solo lettura del codice. Il job di pubblicazione ne chiede di più, e solo lui.
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+# Le azioni sono bloccate sul commit esatto (non su un tag che può essere spostato).
+# Dependabot propone gli aggiornamenti (.github/dependabot.yml).
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Controlli (traduzioni, CSP, link, badge, dati, contatto)
+        run: node scripts/check.mjs --strict
+
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - id: pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      # Si pubblica solo il sito: scripts/, docs/, moduli/ e .github/ restano fuori.
+      - name: Prepara la cartella del sito
+        env:
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          set -euo pipefail
+          mkdir _site
+          cp -r index.html it-sud badge legale assets i18n data badges _site/
+          # L'indirizzo vero del sito entra nelle anteprime social (og:image) e nel link dei badge SVG al momento della pubblicazione.
+          find _site \( -name '*.html' -o -name '*.svg' \) -exec sed -i "s|__SITE_URL__|${BASE_URL}|g" {} +
+          if grep -rq '__SITE_URL__' _site; then echo 'Segnaposto __SITE_URL__ non sostituito' >&2; exit 1; fi
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
