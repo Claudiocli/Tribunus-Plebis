@@ -99,7 +99,7 @@ try {
 }
 
 // ── HTML ──────────────────────────────────────────────────────────────────────
-const htmlFiles = [join(ROOT, 'index.html'), ...['it-sud', 'francia', 'badge', 'legale'].map((d) => join(ROOT, d, 'index.html'))];
+const htmlFiles = [join(ROOT, 'index.html'), ...['it-sud', 'francia', 'badge', 'info'].map((d) => join(ROOT, d, 'index.html'))];
 const usedKeys = new Map(); // chiave → { kind, where }
 const literalKeys = new Set();
 const referencedTemplates = new Set();
@@ -170,7 +170,7 @@ for (const file of htmlFiles) {
   todoTotal += todo;
   if (todo) warn(`${name}: ${todo} campi "DA COMPILARE" da completare prima della pubblicazione`);
 }
-if (todoTotal > 0 && STRICT) fail(`Restano ${todoTotal} campi "DA COMPILARE" in legale/index.html: compilali prima di pubblicare (serve un contatto per le correzioni).`);
+if (todoTotal > 0 && STRICT) fail(`Restano ${todoTotal} campi "DA COMPILARE" in info/index.html: compilali prima di pubblicare (serve un contatto per le correzioni).`);
 
 // Nessun file con dati o segreti nel repository, e nessun indirizzo email in dati e traduzioni.
 const SECRET_FILES = /(\.csv|\.pem|\.key|\.p12|\.pfx)$|(^|[\\/])\.env(\.|$)/i;

@@ -12,7 +12,7 @@ Le stringhe del sito stanno in `i18n/<lingua>.json`. **Nessuna traduzione automa
 
 Il campo `meta.status` di ogni file (`reviewed` o `draft`) è letto dal sito: quando una lingua è in bozza, il piè di pagina lo dice ai visitatori. Quando un madrelingua ha riletto tutto, cambia `draft` in `reviewed` e aggiorna questa tabella.
 
-I **testi legali** (`legale/index.html`) sono solo in italiano: tradurli senza la revisione di un legale sarebbe rischioso.
+La pagina **Info** (`info/index.html`) è tradotta in tutte le lingue (testi in `info.body` di ogni file); le traduzioni non sono state riviste da un legale.
 
 ## Aggiungere una lingua
 

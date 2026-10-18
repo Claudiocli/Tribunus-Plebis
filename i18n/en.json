@@ -19,7 +19,7 @@
     "itsud": "Southern Italy",
     "francia": "France",
     "badge": "Badge",
-    "legal": "Legal information"
+    "info": "Info"
   },
   "footer": {
     "tagline": "A civic project: nonviolent and nonpartisan.",
@@ -152,16 +152,44 @@
     "reviewedNote": "This text has been reviewed by native speakers.",
     "reviewProgress": "Native-speaker confirmations: {n} of {total}."
   },
-  "legal": {
-    "docTitle": "Legal information",
-    "h1": "Legal information",
+  "info": {
+    "docTitle": "Info",
+    "h1": "Info",
     "draft": "Informational text of a non-profit civic project. It is not legal advice.",
-    "onlyItalian": "For now the legal texts are available in Italian only.",
     "toc": "On this page",
     "tocOperator": "Who we are and contact",
     "tocManifesto": "Value of the manifesto",
     "tocPrivacy": "Privacy notice",
-    "tocRemoval": "Corrections and reports"
+    "tocRemoval": "Corrections and reports",
+    "body": {
+      "updated": "Last updated: 18 October 2026.",
+      "contactH": "Who we are and contact",
+      "contactP1": "Tribunus Plebis is a non-profit civic project run by private citizens. It is not a party, an association or an organisation. It sells no products or services and collects no money.",
+      "reportA": "For reports, corrections and requests,",
+      "reportLink": "open an issue with a guided form",
+      "reportB": "on the project repository. Issues are public and require a GitHub account: do not write personal data, yours or anyone else's.",
+      "contactP3": "The news and data in the country sections are summaries written in our own words, with date, source and a link to the original. Whoever runs the site is not the author of the sources: for every piece of data, the original document prevails.",
+      "manifestoH": "Value of the manifesto",
+      "manP1a": "The manifesto published on the home page is",
+      "manP1b": "declaratory",
+      "manP1c": ": it expresses the values of the project. It is not a legal act, not a petition, and gives no legal protection to those who share it.",
+      "manP2": "The project draws on principles that inspire its spirit:",
+      "manLi1": "freedom of expression: Article 21 of the Italian Constitution; Article 10 of the European Convention on Human Rights; Article 11 of the Charter of Fundamental Rights of the European Union; Article 19 of the Universal Declaration of Human Rights;",
+      "manLi2": "freedom of assembly: Article 17 of the Italian Constitution (to assemble “peacefully and unarmed”); Article 11 of the European Convention on Human Rights; Article 12 of the Charter of Fundamental Rights of the European Union; Article 20 of the Universal Declaration of Human Rights.",
+      "manP3": "These freedoms have limits set by law: they do not cover, for example, threats, defamation, or incitement to violence or hatred. The site excludes them by choice, not only by obligation.",
+      "privacyH": "Privacy notice",
+      "prP1a": "The site collects no personal data",
+      "prP1b": ": there are no forms, accounts, comments, cookies, trackers or analytics tools.",
+      "prP2": "The only data kept is the language you choose, in your browser's local storage on your own device: it only remembers your preference and is never sent to anyone.",
+      "prP3a": "The site is hosted on GitHub Pages: GitHub, like any hosting provider, may record technical access data (for example the IP address) according to its",
+      "prP3Link": "own privacy statement",
+      "prP4a": "Reports are made on GitHub (Issues): the text you write and your GitHub username are",
+      "prP4b": "public",
+      "prP4c": "and stay visible until they are deleted by their author or by the project maintainers. Do not write personal data, yours or anyone else's: the forms remind you of this.",
+      "prP5": "If the site ever collects data in the future (for example through a form), this page will be updated first.",
+      "corrH": "Corrections and reports",
+      "corrP": "If you believe that any information on the site is inaccurate, does not match its source, or is unlawful or harmful, open an issue on the project repository (link in the “Who we are and contact” section) stating the page, the item and, if there is one, the document that contradicts it: we will check it and, if needed, correct or remove it. We try to act as soon as possible."
+    }
   },
   "share": {
     "button": "Share",

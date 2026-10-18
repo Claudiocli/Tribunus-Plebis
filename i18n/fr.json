@@ -19,7 +19,7 @@
     "itsud": "Italie du Sud",
     "francia": "France",
     "badge": "Badge",
-    "legal": "Informations légales"
+    "info": "Infos"
   },
   "footer": {
     "tagline": "Un projet citoyen, non violent et non partisan.",
@@ -152,16 +152,44 @@
     "reviewedNote": "Ce texte a été relu par des locuteurs natifs.",
     "reviewProgress": "Confirmations de locuteurs natifs : {n} sur {total}."
   },
-  "legal": {
-    "docTitle": "Informations légales",
-    "h1": "Informations légales",
+  "info": {
+    "docTitle": "Infos",
+    "h1": "Infos",
     "draft": "Texte d'information d'un projet citoyen à but non lucratif. Ce n'est pas un conseil juridique.",
-    "onlyItalian": "Pour l'instant, les textes juridiques ne sont disponibles qu'en italien.",
     "toc": "Sur cette page",
     "tocOperator": "Qui nous sommes et contact",
     "tocManifesto": "Valeur du manifeste",
     "tocPrivacy": "Information sur la vie privée",
-    "tocRemoval": "Corrections et signalements"
+    "tocRemoval": "Corrections et signalements",
+    "body": {
+      "updated": "Dernière mise à jour : 18 octobre 2026.",
+      "contactH": "Qui sommes-nous et contact",
+      "contactP1": "Tribunus Plebis est un projet civique à but non lucratif, géré par de simples citoyens. Ce n'est ni un parti, ni une association, ni un organisme. Il ne vend ni produits ni services et ne collecte aucun argent.",
+      "reportA": "Pour tout signalement, correction ou demande,",
+      "reportLink": "ouvre un signalement avec un formulaire guidé",
+      "reportB": "sur le dépôt du projet. Les signalements sont publics et nécessitent un compte GitHub : n'y écris pas de données personnelles, les tiennes ou celles d'autrui.",
+      "contactP3": "Les actualités et données des sections par pays sont des résumés rédigés avec nos propres mots, avec date, source et lien vers l'original. Les personnes qui gèrent le site ne sont pas les auteurs des sources : pour chaque donnée, c'est le document original qui fait foi.",
+      "manifestoH": "Valeur du manifeste",
+      "manP1a": "Le manifeste publié sur la page d'accueil a une valeur",
+      "manP1b": "déclarative",
+      "manP1c": " : il exprime les valeurs du projet. Ce n'est ni un acte juridique, ni une pétition, et il n'offre aucune protection juridique à celles et ceux qui le partagent.",
+      "manP2": "Le projet s'inspire de principes qui en portent l'esprit :",
+      "manLi1": "liberté d'expression : art. 21 de la Constitution italienne ; art. 10 de la Convention européenne des droits de l'homme ; art. 11 de la Charte des droits fondamentaux de l'Union européenne ; art. 19 de la Déclaration universelle des droits de l'homme ;",
+      "manLi2": "liberté de réunion : art. 17 de la Constitution italienne (se réunir « pacifiquement et sans armes ») ; art. 11 de la Convention européenne des droits de l'homme ; art. 12 de la Charte des droits fondamentaux de l'Union européenne ; art. 20 de la Déclaration universelle des droits de l'homme.",
+      "manP3": "Ces libertés ont des limites fixées par la loi : elles ne couvrent pas, par exemple, les menaces, la diffamation, l'incitation à la violence ou à la haine. Le site les exclut par choix, et pas seulement par obligation.",
+      "privacyH": "Vie privée",
+      "prP1a": "Le site ne collecte aucune donnée personnelle",
+      "prP1b": " : il n'y a ni formulaires, ni comptes, ni commentaires, ni cookies, ni traceurs, ni outils d'analyse.",
+      "prP2": "La seule donnée conservée est la langue que tu choisis, dans la mémoire locale de ton navigateur, sur ton appareil : elle sert uniquement à mémoriser ta préférence et n'est jamais envoyée à personne.",
+      "prP3a": "Le site est hébergé par GitHub Pages : GitHub, comme tout hébergeur, peut enregistrer des données techniques d'accès (par exemple l'adresse IP) conformément à sa",
+      "prP3Link": "propre politique de confidentialité",
+      "prP4a": "Les signalements se font sur GitHub (Issues) : le texte que tu écris et ton nom d'utilisateur GitHub sont",
+      "prP4b": "publics",
+      "prP4c": "et restent visibles jusqu'à ce qu'ils soient supprimés par leur auteur ou par les personnes qui gèrent le projet. N'y écris pas de données personnelles, les tiennes ou celles d'autrui : les formulaires le rappellent.",
+      "prP5": "Si le site devait un jour collecter des données (par exemple avec un formulaire), cette page sera mise à jour auparavant.",
+      "corrH": "Corrections et signalements",
+      "corrP": "Si tu estimes qu'une information présente sur le site est inexacte, ne correspond pas à sa source, ou est illicite ou préjudiciable, ouvre un signalement sur le dépôt du projet (lien dans la section « Qui sommes-nous et contact ») en indiquant la page, l'élément et, le cas échéant, le document qui le contredit : nous le vérifierons et, si nécessaire, le corrigerons ou le retirerons. Nous essayons d'intervenir au plus vite."
+    }
   },
   "share": {
     "button": "Partager",

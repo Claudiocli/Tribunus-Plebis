@@ -77,7 +77,7 @@ function buildFooter() {
       el(
         'p',
         { class: 'footer-links' },
-        i18nSpan('a', 'nav.legal', { href: `${ROOT}legale/` }),
+        i18nSpan('a', 'nav.info', { href: `${ROOT}info/` }),
         repo ? externalLink(repo, 'GitHub') : null,
       ),
     ),

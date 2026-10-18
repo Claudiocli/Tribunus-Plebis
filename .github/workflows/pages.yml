@@ -54,7 +54,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir _site
-          cp -r index.html sitemap.xml robots.txt it-sud francia badge legale assets i18n data badges _site/
+          cp -r index.html sitemap.xml robots.txt it-sud francia badge info assets i18n data badges _site/
           # File di verifica dei motori di ricerca (es. Google Search Console) nella radice.
           find . -maxdepth 1 -name 'google*.html' -exec cp {} _site/ \;
           # L'indirizzo vero del sito entra nelle anteprime social (og:image) e nel link dei badge SVG al momento della pubblicazione.
