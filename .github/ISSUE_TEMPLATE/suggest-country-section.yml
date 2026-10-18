@@ -1,0 +1,58 @@
+name: Suggest a section for your country or cause
+description: Do you want the site to tell the situation in your country? Give us the facts and the sources.
+title: "[Section] "
+labels: ["section"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! A section starts from **facts with public sources**, without attacking people or nations. On armed conflicts we only use verifiable sources (UN, OSCE, news agencies, recognised humanitarian organisations).
+
+        **Issues on GitHub are public.** Do not include personal data, yours or anyone else's (addresses, phone numbers, emails).
+  - type: input
+    id: country
+    attributes:
+      label: Country or region
+      placeholder: France
+    validations:
+      required: true
+  - type: textarea
+    id: situation
+    attributes:
+      label: What is the situation, in a few lines?
+      description: Facts only, in your own words. If a figure is partisan, say whose it is.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 3 to 5 links to public, reliable sources
+      description: Press, statistical bodies, recognised organisations. One address per line.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: languages
+    attributes:
+      label: Which languages could you help review texts in?
+      placeholder: French, English
+  - type: dropdown
+    id: involvement
+    attributes:
+      label: How do you want to contribute?
+      options:
+        - I only want to report the situation
+        - I can help write and keep the section up to date
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I share the site's manifesto, meaning no violence and no party.
+          required: true
+        - label: The sources I listed are public and reachable by anyone.
+          required: true
+        - label: I have not written anyone's personal data.
+          required: true

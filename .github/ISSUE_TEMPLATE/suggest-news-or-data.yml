@@ -1,0 +1,89 @@
+name: Suggest a news item or data point
+description: Suggest an entry for the site, with a source that can be checked.
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! To publish an entry we need **facts with a source**, summarised in your own words.
+
+        **Issues on GitHub are public.** Do not include personal data, yours or anyone else's (addresses, phone numbers, emails), and do not attack people or nations.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What are you suggesting?
+      options:
+        - News (something that happened)
+        - Request and status of the reply
+        - Data point or statistic
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: For which section?
+      description: Currently "Italy – South" and "France" exist. For another country, use the "Suggest a section for your country or cause" form first.
+      placeholder: Italy – South
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Short title
+      placeholder: Tractor protest in Foggia
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date of the event or data (YYYY-MM-DD)
+      placeholder: 2026-10-18
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary in your own words (2 or 3 lines)
+      description: Do not copy the article. Write only what the source really says.
+    validations:
+      required: true
+  - type: input
+    id: source_name
+    attributes:
+      label: Name of the source
+      placeholder: ISTAT, Le Monde, Reuters…
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Link to the source (https://…)
+      description: An address anyone can open without signing up or paying.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: partisan
+    attributes:
+      label: Partisan figures or statements? Whose are they?
+      description: If a number comes from an organisation (for example "according to the organisers"), say so here. If it is official data, leave empty.
+  - type: textarea
+    id: data
+    attributes:
+      label: Only for a data point or statistic
+      description: Value, the period it refers to, and the body that produced it.
+      placeholder: "Value: 6.2% · Period: August 2026 · Body: ISTAT"
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I read the source and the summary matches what it says.
+          required: true
+        - label: The source is public and reachable by anyone.
+          required: true
+        - label: The summary is in my own words and contains no personal data of third parties.
+          required: true
+        - label: The content does not incite or justify violence, does not attack people or nations, and is not party propaganda.
+          required: true

@@ -1,0 +1,48 @@
+name: Report an error or ask for a correction
+description: An entry on the site does not match its source, is wrong or out of date.
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! A correction is quicker to verify if you say **which entry** and give **the document that contradicts it**.
+
+        **Issues on GitHub are public.** Do not include personal data, yours or anyone else's (addresses, phone numbers, emails).
+  - type: input
+    id: where
+    attributes:
+      label: Which entry or page?
+      description: The title of the entry or the address of the page.
+      placeholder: Road blocks in Apulia
+    validations:
+      required: true
+  - type: textarea
+    id: what_is_wrong
+    attributes:
+      label: What is wrong?
+      description: What the site says and what the source says instead.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Link to the document that shows it (https://…)
+      description: An address anyone can open without signing up or paying.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: How it should be
+      description: If you like, suggest the corrected text in your own words.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I checked the document and it contradicts the site's entry.
+          required: true
+        - label: I have not written anyone's personal data.
+          required: true

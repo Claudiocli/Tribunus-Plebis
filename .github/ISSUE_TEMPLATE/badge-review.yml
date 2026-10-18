@@ -1,0 +1,59 @@
+name: Confirm or correct a badge text
+description: Are you a native speaker? Tell us if the badge sentence is correct and natural in your language.
+title: "[Badge] "
+labels: ["translation", "badge"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! The badge sentences are drafted with the help of a language model: **until a speaker of the language confirms them, the site marks them as drafts**. When two independent native speakers confirm the same text, the "draft" label goes away.
+
+        Please read the sentence **in your own language**, as a friend would read it: does it sound natural? Is it respectful and free of mistakes?
+
+        **Issues on GitHub are public.** Do not include personal data, yours or anyone else's (addresses, phone numbers, emails).
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Usually already filled in by the site.
+      placeholder: Español (es)
+    validations:
+      required: true
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Current badge text
+      description: "Usually already filled in by the site. Please do not edit it, because it tells us which text you read."
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: What do you think?
+      options:
+        - The text is correct and natural
+        - The text is understandable but I suggest a correction
+        - The text is wrong or unnatural and should be rewritten
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Corrected text (only if you chose a correction)
+      description: Write the sentence as it should be, in your language. Keep it short, two lines at most.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional. For example grammatical gender, how formal the register is, differences between countries that speak the same language.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: This is my native language, or I speak it at an advanced level.
+          required: true
+        - label: I read the text in the stated language, not only through a machine translation.
+          required: true
+        - label: I have not written anyone's personal data.
+          required: true

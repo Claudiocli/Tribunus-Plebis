@@ -1,0 +1,55 @@
+name: Review or correct a translation
+description: Do you speak a language of the site well? Help us check the text.
+title: "[Translation] "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! The translations are drafted with the help of a language model and **have not yet been reviewed by native speakers**: your check matters a lot.
+
+        For the **text of a badge**, use the form "Confirm or correct a badge text" instead: it is the one that allows removing the "draft" label.
+
+        **Issues on GitHub are public.** Do not include personal data, yours or anyone else's (addresses, phone numbers, emails).
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: Español (es)
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: What do you want to correct?
+      options:
+        - The site texts
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: Copy it from the site.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: How it should be
+      description: The corrected text, in the language concerned.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why
+      description: Optional. For example "it sounds unnatural" or "it is a grammar mistake".
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: This is my native language, or I speak it at an advanced level.
+          required: true
+        - label: I have not written anyone's personal data.
+          required: true

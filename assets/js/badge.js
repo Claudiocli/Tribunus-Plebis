@@ -78,7 +78,7 @@ function update() {
   draftNote.hidden = language.status !== 'draft';
   reviewedNote.hidden = language.status !== 'reviewed';
   progress.textContent = language.status === 'draft' && confirmed > 0 ? t('badge.reviewProgress', { n: confirmed, total: confirmationsNeeded }) : '';
-  reviewLink.dataset.repoPath = `issues/new?template=conferma-badge.yml&lingua=${encodeURIComponent(`${name} (${code})`)}&testo_attuale=${encodeURIComponent(text)}`;
+  reviewLink.dataset.repoPath = `issues/new?template=badge-review.yml&language=${encodeURIComponent(`${name} (${code})`)}&current_text=${encodeURIComponent(text)}`;
   wireRepoLinks();
 
   note.hidden = !['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);

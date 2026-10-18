@@ -1,16 +1,16 @@
-# Sicurezza
+# Security
 
-Hai trovato una vulnerabilità o un problema di privacy in questo sito?
+Did you find a vulnerability or a privacy problem on this site?
 
-**Non aprire una issue pubblica.** Usa la segnalazione privata di GitHub: scheda **Security → Report a vulnerability** di questo repository.
+**Do not open a public issue.** Use GitHub's private reporting: the **Security → Report a vulnerability** tab of this repository.
 
-## Perimetro
+## Scope
 
-Il sito è statico: nessun server, nessun database, nessun account, nessun modulo, nessun cookie e nessun dato personale raccolto. Gli unici file pubblicati sono pagine HTML, CSS, JavaScript, traduzioni e dati (notizie e statistiche con fonte).
+The site is static: no server, no database, no accounts, no forms, no cookies and no personal data collected. The only published files are HTML pages, CSS, JavaScript, translations and data (news and statistics with sources).
 
-Le difese principali, controllate automaticamente da `scripts/check.mjs` a ogni pubblicazione:
+The main defences, checked automatically by `scripts/check.mjs` on every deployment:
 
-- Content-Security-Policy rigida in ogni pagina: script e stili solo dal proprio dominio, nessuna richiesta a terzi, nessun `unsafe-inline` né `unsafe-eval`, Trusted Types obbligatori.
-- Testo esterno inserito solo con `textContent`, mai con `innerHTML`; link esterni solo `https` con `rel="noopener noreferrer nofollow"`.
-- Pagine che non si mostrano se incorniciate in un altro sito.
-- Pubblicazione con azioni GitHub bloccate sul commit esatto e permessi minimi.
+- A strict Content-Security-Policy on every page: scripts and styles only from the site's own domain, no requests to third parties, no `unsafe-inline` or `unsafe-eval`, Trusted Types required.
+- External text is inserted only with `textContent`, never with `innerHTML`; external links are `https` only, with `rel="noopener noreferrer nofollow"`.
+- Pages refuse to be displayed when framed by another site.
+- Deployment with GitHub Actions pinned to the exact commit and minimal permissions.
