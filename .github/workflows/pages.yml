@@ -3,6 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 # Permessi minimi di default: solo lettura del codice. Il job di pubblicazione ne chiede di più, e solo lui.
@@ -30,6 +32,7 @@ jobs:
 
   deploy:
     needs: check
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -51,7 +54,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir _site
-          cp -r index.html it-sud badge legale assets i18n data badges _site/
+          cp -r index.html it-sud francia badge legale assets i18n data badges _site/
           # L'indirizzo vero del sito entra nelle anteprime social (og:image) e nel link dei badge SVG al momento della pubblicazione.
           find _site \( -name '*.html' -o -name '*.svg' \) -exec sed -i "s|__SITE_URL__|${BASE_URL}|g" {} +
           if grep -rq '__SITE_URL__' _site; then echo 'Segnaposto __SITE_URL__ non sostituito' >&2; exit 1; fi

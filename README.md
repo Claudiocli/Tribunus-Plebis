@@ -1,23 +1,23 @@
 # Tribunus Plebis
 
-Un sito statico, gratuito, non violento e non partitico, dove le persone di ogni paese possono farsi sentire con fatti verificabili e rispetto reciproco.
+A free, static, nonviolent and non-partisan website where people from every country can make themselves heard through verifiable facts and mutual respect.
 
-> Siamo tutti fratelli e sorelle, da New York a Kiev, da Mosca a Tokyo, da Roma a Sydney.
+> We are all brothers and sisters, from New York to Kyiv, from Moscow to Tokyo, from Rome to Sydney.
 
-Il sito non ha server, database, account, cookie né pagamenti, e non raccoglie nessun dato personale.
+The site has no server, database, accounts, cookies or payments, and collects no personal data.
 
-## Il badge
+## The badge
 
-Il badge «Io sono un umano…» è disponibile in più lingue.
+The "I am a human…" badge is available in several languages.
 
-1. Apri la pagina `/badge/` del sito e scegli la lingua.
-2. Copia il codice Markdown (per il README del tuo profilo GitHub) oppure quello HTML (per un sito).
-3. Incollalo così com'è: il badge è già avvolto in un link, quindi chi lo clicca arriva a questo sito.
+1. Open the `/badge/` page of the site and choose your language.
+2. Copy the Markdown code (for your GitHub profile README) or the HTML code (for a website).
+3. Paste it as is: the badge is already wrapped in a link, so anyone who clicks it lands on this site.
 
-## Segnalazioni e correzioni
+## Reports and corrections
 
-Per segnalare un errore, proporre una notizia o rivedere una traduzione, [apri una Issue](../../issues/new/choose). Le segnalazioni sono pubbliche: non inserirvi dati personali.
+To report an error, suggest a news item or review a translation, [open an Issue](../../issues/new/choose). Issues are public: do not include personal data.
 
-## Licenze
+## Licenses
 
-Codice: [MIT](LICENSE). Testi e grafiche: vedi [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
+Code: [MIT](LICENSE). Texts and graphics: see [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
